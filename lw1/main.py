@@ -7,10 +7,10 @@ def determine_triangle_type(a, b, c):
         c = float(c)
 
         if a <= 0 or b <= 0 or c <= 0:
-            return "не треугольник"
+            return "не_треугольник"
 
         if a + b <= c or a + c <= b or b + c <= a:
-            return "не треугольник"
+            return "не_треугольник"
 
         if a == b == c:
             return "равносторонний"
@@ -19,12 +19,12 @@ def determine_triangle_type(a, b, c):
         else:
             return "обычный"
     except:
-        return "неизвестная ошибка"
+        return "неизвестная_ошибка"
 
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("main.py a b c")
+        print("3_аргумента!")
     else:
         a, b, c = sys.argv[1], sys.argv[2], sys.argv[3]
         result = determine_triangle_type(a, b, c)
