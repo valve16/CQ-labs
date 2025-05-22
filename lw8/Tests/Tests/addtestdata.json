@@ -1,0 +1,90 @@
+{
+  "valid": {
+    "category_id": "1",
+    "title": "title",
+    "content": "content",
+    "price": "100",
+    "old_price": "150",
+    "status": "1",
+    "keywords": "Something",
+    "description": "Description",
+    "hit": "0"
+  },
+  "valid_rus": {
+    "category_id": "1",
+    "title": "Валидный заголовок",
+    "content": "Контент",
+    "price": "10",
+    "old_price": "1000",
+    "status": "1",
+    "keywords": "Клавиши",
+    "description": "Описание",
+    "hit": "0"
+  },
+  "invalid_category_id_less": {
+    "category_id": "0",
+    "title": "InvalidCategoryLess",
+    "content": "ValidProductContent",
+    "price": "100",
+    "old_price": "150",
+    "status": "1",
+    "keywords": "Something",
+    "description": "Description",
+    "hit": "0"
+  },
+  "invalid_category_id_more": {
+    "category_id": "16",
+    "title": "InvalidCategoryMore",
+    "content": "Content",
+    "price": "100",
+    "old_price": "150",
+    "status": "1",
+    "keywords": "Something",
+    "description": "Description",
+    "hit": "0"
+  },
+  "invalid_status": {
+    "category_id": "1",
+    "title": "InvalidStatusLess",
+    "content": "Content",
+    "price": "100",
+    "old_price": "150",
+    "status": "-1",
+    "keywords": "Something",
+    "description": "Description",
+    "hit": "0"
+  },
+  "invalid_status_more": {
+    "category_id": "1",
+    "title": "InvalidStatusMore",
+    "content": "Content",
+    "price": "100",
+    "old_price": "150",
+    "status": "2",
+    "keywords": "Something",
+    "description": "Description",
+    "hit": "0"
+  },
+  "invalid_hit": {
+    "category_id": "1",
+    "title": "InvalidHitLess",
+    "content": "Content",
+    "price": "100",
+    "old_price": "150",
+    "status": "1",
+    "keywords": "Something",
+    "description": "Description",
+    "hit": "-1"
+  },
+  "invalid_hit_more": {
+    "category_id": "1",
+    "title": "InvalidHitMore",
+    "content": "Content",
+    "price": "100",
+    "old_price": "150",
+    "status": "1",
+    "keywords": "Something",
+    "description": "Description",
+    "hit": "2"
+  }
+}
