@@ -1,0 +1,17 @@
+
+@CurrencyMockService_HostAddress = http://localhost:5166
+### Получить курс USD к EUR (по умолчанию)
+GET {{CurrencyMockService_HostAddress}}/api/currency/rate
+Accept: application/json
+
+### Получить курс USD к RUB
+GET {{CurrencyMockService_HostAddress}}/api/currency/rate?baseCurrency=USD&targetCurrency=RUB
+Accept: application/json
+
+### Получить курс EUR к USD
+GET {{CurrencyMockService_HostAddress}}/api/currency/rate?baseCurrency=EUR&targetCurrency=USD
+Accept: application/json
+
+### Получить курс RUB к USD
+GET {{CurrencyMockService_HostAddress}}/api/currency/rate?baseCurrency=RUB&targetCurrency=USD
+Accept: application/json
